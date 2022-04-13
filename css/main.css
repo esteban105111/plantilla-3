@@ -1,0 +1,180 @@
+/*TAGS*/
+
+a {
+  color: #373b47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e95853;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: "Raleway", sans-serif;
+}
+
+footer {
+  background-color: #373B47;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+header > .menu-list-container {
+  margin-top: 20px;
+}
+
+header > div > .menu-item {
+  margin: 20px 40px;
+  font-weight: 700;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/*ID´S*/
+
+#proyectos {
+  text-align: center;
+}
+
+#proyectos > div {
+  display: inline-block;
+  margin: 0 80px;
+}
+
+#proyectos > div > img {
+  width: 200px;
+}
+
+#seccion-1 {
+  background-image: url("../assets/images/bg-home.jpg");
+  text-align: center;
+  color: white;
+  height: 520px;
+}
+
+#seccion-1 > div > h1 {
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+#seccion-1 > div {
+  padding-top: 80px;
+}
+
+#seccion-1 > div > .button-green {
+  background: #2ecc71;
+  color: white;
+  display: inline-block;
+  margin-top: 22px;
+  padding: 10px 20px;
+}
+
+#seccion-2 {
+  background: #f17b75;
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+}
+
+#seccion-2 > div > h2 {
+  margin: 0;
+  letter-spacing: 20px;
+}
+
+#seccion-2 > div > div {
+  display: inline-block;
+  margin: 20px 50px;
+}
+
+#seccion-2 > div > div > img {
+  width: 200px;
+}
+
+#seccion-3 > div {
+  text-align: center;
+  margin: 50px 0;
+}
+
+#seccion-3 > div > img {
+  width: 80%;
+}
+
+/*CLASES*/
+
+.clear {
+  clear: both;
+}
+
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
